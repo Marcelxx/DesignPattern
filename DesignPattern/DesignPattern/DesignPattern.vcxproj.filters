@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AbstractFactry">
+      <UniqueIdentifier>{cd1a7457-2ff5-46eb-acfb-b29a749783e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleTon">
+      <UniqueIdentifier>{1abeb16e-733f-45e3-92e7-577ed641135b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{66261d6d-d65e-4230-9e95-da5e5c4b56d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder模式">
+      <UniqueIdentifier>{5ddb19b0-d8cf-4f1f-9a2e-ed314e73412f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{e927d80f-0b6a-447d-8feb-3396e81782e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>AbstractFactry</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Builder模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>Prototype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>AbstractFactry</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTon.cpp">
+      <Filter>SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Builder模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
